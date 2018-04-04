@@ -14,7 +14,7 @@ export default {
   props: [ 'num' ],
   methods: {
     increment () {
-      this.$emit('increate')
+      this.$emit('increate')// 这个函数触发，父组件的num 值也会跟着改变
     },
     decrement () {
       this.$emit('decreate')
