@@ -5,13 +5,12 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 <style lang="stylus">
-  .shop
-    width:100%
-    height :100%
-    float:left
+.shop {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
 </style>

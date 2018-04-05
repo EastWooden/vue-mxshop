@@ -7,18 +7,21 @@
   </div>
 </template>
 <script>
-import LeftNav from '@/components/LeftNav'
+import LeftNav from '@/components/LeftNav';
 export default {
   components: {
     LeftNav
   }
-}
+};
 </script>
 <style lang="stylus">
-  .main
-    height :100%;
-    .rightContent
-      float:left;
-      width: 95%;
-      height :100%;
+.main {
+  height: 100%;
+
+  .rightContent {
+    float: left;
+    width: 95%;
+    height: 100%;
+  }
+}
 </style>

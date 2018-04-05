@@ -4,11 +4,11 @@
   </div>
 </template>
 <script>
-import UMain from './views/Main'
+import UMain from './views/Main';
 export default {
   name: 'App',
   components: {
     UMain
   }
-}
+};
 </script>
